@@ -38,11 +38,14 @@ atom-text-editor {
 
       &.cursor-line {
         background-color: @syntax-gutter-background-color-selected;
-        color: @syntax-gutter-text-color-selected;
+        // color: @syntax-gutter-text-color-selected;
+        border-left:1px solid rgb(100, 40, 255);
+        text-shadow: 0 0 10px #003ffc, 0 0 10px #ffffff;
+        transition: 0.3s;
       }
 
       &.cursor-line-no-selection {
-        color: @syntax-gutter-text-color-selected;
+        // color: @syntax-gutter-text-color-selected;
       }
     }
   }

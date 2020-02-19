@@ -4,8 +4,13 @@
   "version": "1.0.0",
   "description": "A short description of your syntax theme",
   "keywords": [
-    "syntax",
-    "theme"
+    "ui",
+    "theme",
+    "selene-ui-syntax",
+    "Atom Theme",
+    "selene",
+    "Areg",
+    "Ghazaryan"
   ],
   "repository": "https://github.com/AregGhazaryan/selene-ui-syntax.git",
   "license": "MIT",
